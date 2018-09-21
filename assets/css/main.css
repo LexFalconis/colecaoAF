@@ -1,0 +1,63 @@
+/**
+https://www.w3schools.com/colors/colors_monochromatic.asp
+#FFFFFF
+#CFD8E7 banner body item menu
+#8A9FC5 topo
+#4D699D
+#1F2737 rodape
+**/
+*{margin: 0px; padding: 0px; font-family: Arial; font-size: 14px; transition: 0.5s;}
+a{text-decoration:none;}
+
+.topo{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  background-color: #8A9FC5;
+}
+.banner{
+  width: 960px;
+  height: 125px;
+  border: 1px #CFD8E7 solid;
+  margin: auto;
+}
+.menu{
+  width: 960px;
+  height: 25px;
+  overflow: hidden;
+  margin:auto;
+  margin-top:1px;
+}
+.lmenu{margin: auto;height: 25px;overflow: hidden;width: 345px;}
+.lmenu li{
+  list-style: none;
+  float: left;
+  height: 23px;
+  line-height: 23px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #CFD8E7;
+}
+.lmenu li:hover{
+  background-color: #8A9FC5;
+}
+.body{
+  width: 100%;
+  height: auto;
+  background-color: #CFD8E7;
+  margin:auto;
+}
+.bodycontent{
+  width: 960px;
+  height: 100%;
+  margin: auto;
+}
+.rodape{
+  width: 100%;
+  height: 100px;
+  border-top: 2px #1F2737 solid;
+}
+
+#listaItens tr td{
+  border: 1px #000 solid;
+}
