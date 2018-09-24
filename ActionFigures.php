@@ -10,7 +10,15 @@ try{
 }
 ?>
   <table id="listaItens">
-    
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vendedor</th>
+        <th>Reservado em</th>
+        <th>Fabricante</th>
+        <th>Serie</th>
+      </tr>
+    </thead>
   
 <?php
 if($read->fetch(PDO::FETCH_OBJ)){
@@ -20,7 +28,6 @@ if($read->fetch(PDO::FETCH_OBJ)){
       <td><?=$rs->idvendedor?></td>
       <td><?=$rs->datareserva?></td>
       <td><?=$rs->idfabricante?></td>
-      <td><?=$rs->idserie?></td>
       <td><?=$rs->idserie?></td>
     </tr>
     <?php

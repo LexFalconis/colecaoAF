@@ -12,11 +12,11 @@
     </div>
     <div class="menu">
       <ul class=lmenu>
-        <li>Figuras</li>
-        <li>Pré venda</li>
-        <li>Fabricantes</li>
-        <li>Vendedores</li>
-        <li>Série</li>
+        <li><a href="ActionFigures">Figuras</a></li>
+        <li><a href="Reservas">Pré venda</a></li>
+        <li><a href="Linhas">Linhas</a></li>
+        <li><a href="Vendedores">Vendedores</a></li>
+        <li><a href="Serie">Série</a></li>
       </ul>
     </div>
   </div>

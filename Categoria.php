@@ -10,7 +10,12 @@ try{
 }
 ?>
   <table id="listaItens">
-    
+     <thead>
+      <tr>
+        <th>ID</th>
+        <th>Categoria</th>
+      </tr>
+    </thead>
   
 <?php
 if($read->fetch(PDO::FETCH_OBJ)){

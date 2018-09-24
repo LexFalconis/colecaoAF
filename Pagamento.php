@@ -10,7 +10,11 @@ try{
 }
 ?>
   <table id="listaItens">
-    
+     <thead>
+      <tr>
+        <th>Forma de pagamento</th>
+      </tr>
+    </thead>
   
 <?php
 if($read->fetch(PDO::FETCH_OBJ)){

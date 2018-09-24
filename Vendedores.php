@@ -10,7 +10,17 @@ try{
 }
 ?>
   <table id="listaItens">
-    
+    <thead>
+      <tr>
+        <th>Loja</th>
+        <th>Contato</th>
+        <th>Telefone</th>
+        <th>E-mail</th>
+        <th>Rede social</th>
+        <th>Site</th>
+        <th>Observação</th>
+      </tr>
+    </thead>
   
 <?php
 if($read->fetch(PDO::FETCH_OBJ)){

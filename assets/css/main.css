@@ -8,12 +8,16 @@ https://www.w3schools.com/colors/colors_monochromatic.asp
 **/
 *{margin: 0px; padding: 0px; font-family: Arial; font-size: 14px; transition: 0.5s;}
 a{text-decoration:none;}
-
 .topo{
   width: 100%;
   height: 150px;
   overflow: hidden;
   background-color: #8A9FC5;
+  position: fixed;
+}
+.topoAdm{
+  width: 960px;
+  height: 25px;
 }
 .banner{
   width: 960px;
@@ -28,8 +32,8 @@ a{text-decoration:none;}
   margin:auto;
   margin-top:1px;
 }
-.lmenu{margin: auto;height: 25px;overflow: hidden;width: 345px;}
-.lmenu li{
+.lmenu, .lmenuAdm{margin: auto;height: 25px;overflow: hidden;width: 335px;}
+.lmenu li,.lmenuAdm li{
   list-style: none;
   float: left;
   height: 23px;
@@ -38,10 +42,15 @@ a{text-decoration:none;}
   padding-right: 5px;
   background-color: #CFD8E7;
 }
-.lmenu li:hover{
+.lmenu li:hover, .lmenu a:hover{
   background-color: #8A9FC5;
+  color: #FFF;
+}
+.lmenu a{
+  color: #4D699D;
 }
 .body{
+  padding-top: 170px;
   width: 100%;
   height: auto;
   background-color: #CFD8E7;
@@ -56,8 +65,37 @@ a{text-decoration:none;}
   width: 100%;
   height: 100px;
   border-top: 2px #1F2737 solid;
+  margin-bottom:0px;padding-bottom:0px;
 }
-
+#listaItens{
+  max-width: 900px;
+  margin: auto;
+}
 #listaItens tr td{
-  border: 1px #000 solid;
+  border: 0px #fff hidden;
+}
+#listaItens thead tr th{
+  background-color: #1F2737;
+  color: #CFD8E7;
+}
+#listaItens tr{
+  background-color: #4D699D;
+  color: #CFD8E7;
+}
+#listaItens tr:nth-child(2n+1){
+  background-color: #8A9FC5;
+}
+#listaItens tr:hover{
+  background-color: #1F2737;
+  color: #FFFFFF;
+}
+.EditDiversos{
+  width:960px;
+  min-height:800px;
+}
+.EditSerie, .EditPagamento,.EditCategoria,.EditLinha{
+  width: 475px;
+  height: 400px;
+  float: left;
+  overflow:scroll;
 }
