@@ -32,7 +32,7 @@ a{text-decoration:none;}
   margin:auto;
   margin-top:1px;
 }
-.lmenu, .lmenuAdm{margin: auto;height: 25px;overflow: hidden;width: 335px;}
+.lmenu, .lmenuAdm{margin: auto;height: 25px;overflow: hidden;width: 310px;}
 .lmenu li,.lmenuAdm li{
   list-style: none;
   float: left;
