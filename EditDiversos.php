@@ -1,4 +1,4 @@
-<?php include'TopoAdm.php';?>
+<?php include'TopoAdm.php'; require'class/autoload.php'; ?>
 
 <div class="EditDiversos">
   <div class="EditSerie">
@@ -9,6 +9,10 @@
   </div>
   <div class="EditCategoria">
     Categoria
+    <?php
+      $tst = new search();
+      $tst->buscaTeste();
+    ?>
   </div>
   <div class="EditLinha">
     Linha
